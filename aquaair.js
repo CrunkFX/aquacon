@@ -14,94 +14,94 @@
 
 // Benutzervariablen ab hier !!
 
-// Montag - Donnerstag
+    // Montag - Donnerstag
 
-//Einschalten
-var modo1 = "30 8 * * 1-4"
-var modox1 = "Eingeschaltet bis 8:40Uhr"
-var modoy1 = "Ausgeschaltet bis 9:30Uhr"
+        //Einschalten
+        var modo1 = "30 8 * * 1-4"
+        var modox1 = "Eingeschaltet bis 8:40Uhr"
+        var modoy1 = "Ausgeschaltet bis 9:30Uhr"
 
-//Ausschalten
-var modo2 = "30 9 * * 1-4"
-var modox2 = "Eingeschaltet bis 9:40Uhr"
-var modoy2 = "Ausgeschaltet bis 17:00Uhr"
+        //Ausschalten
+        var modo2 = "30 9 * * 1-4"
+        var modox2 = "Eingeschaltet bis 9:40Uhr"
+        var modoy2 = "Ausgeschaltet bis 17:00Uhr"
 
-//Einschalten
-var modo3 = "0 17 * * 1-4"
-var modox3 = "Eingeschaltet bis 17:10Uhr"
-var modoy3 = "Ausgeschaltet bis 18:00Uhr"
+        //Einschalten
+        var modo3 = "0 17 * * 1-4"
+        var modox3 = "Eingeschaltet bis 17:10Uhr"
+        var modoy3 = "Ausgeschaltet bis 18:00Uhr"
 
-// Ausschalten
-var modo4 = "0 18 * * 1-4"
-var modox4 = "Eingeschaltet bis 18:10Uhr"
-var modoy4 = "Ausgeschaltet bis 8:30Uhr"
+        // Ausschalten
+        var modo4 = "0 18 * * 1-4"
+        var modox4 = "Eingeschaltet bis 18:10Uhr"
+        var modoy4 = "Ausgeschaltet bis 8:30Uhr"
 
-// Freitag
+    // Freitag
 
-//Einschalten
-var fr1 = "30 8 * * 5"
-var frx1 = "Eingeschaltet bis 8:40Uhr"
-var fry1 = "Ausgeschaltet bis 9:30Uhr"
+        //Einschalten
+        var fr1 = "30 8 * * 5"
+        var frx1 = "Eingeschaltet bis 8:40Uhr"
+        var fry1 = "Ausgeschaltet bis 9:30Uhr"
 
-//Ausschalten
-var fr2 = "30 9 * * 5"
-var frx2 = "Eingeschaltet bis 9:40Uhr"
-var fry2 = "Ausgeschaltet bis 17:00Uhr"
+        //Ausschalten
+        var fr2 = "30 9 * * 5"
+        var frx2 = "Eingeschaltet bis 9:40Uhr"
+        var fry2 = "Ausgeschaltet bis 17:00Uhr"
 
-//Einschalten
-var fr3 = "0 17 * * 5"
-var frx3 = "Eingeschaltet bis 17:10Uhr"
-var fry3 = "Ausgeschaltet bis 18:00Uhr"
+        //Einschalten
+        var fr3 = "0 17 * * 5"
+        var frx3 = "Eingeschaltet bis 17:10Uhr"
+        var fry3 = "Ausgeschaltet bis 18:00Uhr"
 
-//Ausschalten
-var fr4 = "0 18 * * 5"
-var frx4 = "Eingeschaltet bis 18:10Uhr"
-var fry4 = "Ausgeschaltet bis 10:30Uhr"
+        //Ausschalten
+        var fr4 = "0 18 * * 5"
+        var frx4 = "Eingeschaltet bis 18:10Uhr"
+        var fry4 = "Ausgeschaltet bis 10:30Uhr"
 
-// Samstag
+    // Samstag
 
-//Einschalten
-var sa1 = "30 10 * * 6"
-var sax1 = "Eingeschaltet bis 10:40Uhr"
-var say1 = "Ausgeschaltet bis 11:30Uhr"
+        //Einschalten
+        var sa1 = "30 10 * * 6"
+        var sax1 = "Eingeschaltet bis 10:40Uhr"
+        var say1 = "Ausgeschaltet bis 11:30Uhr"
 
-//Ausschalten
-var sa2 = "30 11 * * 6"
-var sax2 = "Eingeschaltet bis 11:40Uhr"
-var say2 = "Ausgeschaltet bis 18:00Uhr"
+        //Ausschalten
+        var sa2 = "30 11 * * 6"
+        var sax2 = "Eingeschaltet bis 11:40Uhr"
+        var say2 = "Ausgeschaltet bis 18:00Uhr"
 
-//Einschalten
-var sa3 = "00 18 * * 6"
-var sax3 = "Eingeschaltet bis 18:10Uhr"
-var say3 = "Ausgeschaltet bis 19:00Uhr"
+        //Einschalten
+        var sa3 = "00 18 * * 6"
+        var sax3 = "Eingeschaltet bis 18:10Uhr"
+        var say3 = "Ausgeschaltet bis 19:00Uhr"
 
-//Ausschalten
-var sa4 = "0 19 * * 6"
-var sax4 = "Eingeschaltet bis 19:10Uhr"
-var say4 = "Ausgeschaltet bis 10:30Uhr"
+        //Ausschalten
+        var sa4 = "0 19 * * 6"
+        var sax4 = "Eingeschaltet bis 19:10Uhr"
+        var say4 = "Ausgeschaltet bis 10:30Uhr"
 
 
-// Sonntag
+    // Sonntag
 
-//Einschalten
-var so1 = "30 10 * * 0"
-var sox1 = "Eingeschaltet bis 10:40Uhr"
-var soy1 = "Ausgeschaltet bis 11:30Uhr"
+        //Einschalten
+        var so1 = "30 10 * * 0"
+        var sox1 = "Eingeschaltet bis 10:40Uhr"
+        var soy1 = "Ausgeschaltet bis 11:30Uhr"
 
-//Ausschalten
-var so2 = "30 11 * * 0"
-var sox2 = "Eingeschaltet bis 11:40Uhr"
-var soy2 = "Ausgeschaltet bis 18:00Uhr"
+        //Ausschalten
+        var so2 = "30 11 * * 0"
+        var sox2 = "Eingeschaltet bis 11:40Uhr"
+        var soy2 = "Ausgeschaltet bis 18:00Uhr"
 
-//Einschalten
-var so3 = "0 18 * * 0"
-var sox3 = "Eingeschaltet bis 18:10Uhr"
-var soy3 = "Ausgeschaltet bis 19:00Uhr"
+        //Einschalten
+        var so3 = "0 18 * * 0"
+        var sox3 = "Eingeschaltet bis 18:10Uhr"
+        var soy3 = "Ausgeschaltet bis 19:00Uhr"
 
-//Ausschalten
-var so4 = "0 19 * * 0"
-var sox4 = "Eingeschaltet bis 19:10Uhr"
-var soy4 = "Ausgeschaltet bis 8:30Uhr"
+        //Ausschalten
+        var so4 = "0 19 * * 0"
+        var sox4 = "Eingeschaltet bis 19:10Uhr"
+        var soy4 = "Ausgeschaltet bis 8:30Uhr"
 
 // Benutzervariablen bis hier !!
 
